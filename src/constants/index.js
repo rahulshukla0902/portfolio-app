@@ -1,13 +1,13 @@
 import {
   mobile,
   backend,
-  creator,
   web,
   javascript,
   typescript,
   html,
   css,
   reactjs,
+  angular,
   redux,
   tailwind,
   nodejs,
@@ -15,14 +15,11 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  simplify,
   threejs,
+  iphone3d,
+  keeper,
+  moviedatabase,
 } from "../assets";
 
 export const navLinks = [
@@ -42,20 +39,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "React Developer",
+    icon: reactjs,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Angular Developer",
+    icon: angular,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Node Developer",
+    icon: nodejs,
   },
 ];
 
@@ -75,6 +72,10 @@ const technologies = [
   {
     name: "TypeScript",
     icon: typescript,
+  },
+  {
+    name: "Angular",
+    icon: angular,
   },
   {
     name: "React JS",
@@ -116,55 +117,20 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Associate Software Engineer",
+    company_name: "SimplifyVMS",
+    icon: simplify,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "January 2023 - July 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a Schema Designer for the Simplify Bridge platform's upload utility module, including file-schema validation, a script code editor, and API integrations using Angular and StencilJS.",
+      "Integrated form inputs within the Schema Designer to generate JSON outputs for backend services.",
+      "Created a Standardised Reports module in React, enabling report addition and editing on the client's dashboard based on user access levels.",
+      "Designed an Angular page for Topics (KAFKA-queue) with StencilJS, including create, edit, and delete functionalities.",
+      "Developed a Bookmark feature for users Reports and Dashboards in React using local storage of browser.",
+      "Collaborated with UX designers to develop advanced components with StencilJS and integrated them into Angular, using Storybook for UI component storytelling.",
+      "Designed a workflow with an intuitive popup interface and four options to initiate pipelines using Angular Templates and MatDialog for improved user-interaction.",
+      "Embedded Metabase into the SimplifyVMS platform with iframe using the YII framework in PHP, contributing model, view, and controller components.",
     ],
   },
 ];
@@ -198,16 +164,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Apple Iphone 3D Webapp",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "An application that allows users to watch and experience a 3D model of the Apple Iphone with multiple colours, sizes and animations, providing a convenient way to look around.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "threejs",
         color: "green-text-gradient",
       },
       {
@@ -215,13 +181,15 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: iphone3d,
+    source_code_link:
+      "https://github.com/rahulshukla0902/iphone-website-three-js-gsap",
+    deployed_project: "https://frabjous-kataifi-751d38.netlify.app/",
   },
   {
-    name: "Job IT",
+    name: "Movie Database",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to search for movies, view movie details such as Director, Actors, Awards, Ratings, etc. Used OMDB API(REST API) for fetching details.",
     tags: [
       {
         name: "react",
@@ -232,24 +200,25 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "hooks",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: moviedatabase,
+    source_code_link: "https://github.com/rahulshukla0902/movie-database-app",
+    deployed_project: "https://tiny-crepe-466869.netlify.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Keeper Application",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A comprehensive notes keeping platform that allows users to write notes, update and delete notes according to the user requirements.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "hooks",
         color: "green-text-gradient",
       },
       {
@@ -257,8 +226,10 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: keeper,
+    source_code_link:
+      "https://codesandbox.io/s/keeperapp-%20kjh59g?file=/public/index.html",
+    deployed_project: "https://kjh59g.csb.app/",
   },
 ];
 

@@ -19,16 +19,14 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import threejs from "./tech/threejs.png";
+import angular from "./tech/angular.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import simplify from "./company/simplifyVMS.jpeg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import iphone3d from "./iphone3d.png";
+import keeper from "./keeper.png";
+import moviedatabase from "./moviedatabase.png";
 
 export {
   logo,
@@ -52,11 +50,9 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  angular,
+  simplify,
+  iphone3d,
+  keeper,
+  moviedatabase,
 };
