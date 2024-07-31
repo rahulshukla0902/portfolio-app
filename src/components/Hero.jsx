@@ -19,7 +19,8 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Rahul</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Software Engineer skilled in React, Angular, Javascript, Typescript and NodeJS
+            Software Engineer skilled in React, Angular, Javascript, Typescript and NodeJS. Here is my portfolio showcasing
+            my skills and experience with Software Development technologies.
           </p>
         </div>
       </div>
