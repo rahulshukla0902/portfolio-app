@@ -1,11 +1,31 @@
 import React, { Suspense, useEffect, useState } from "react";
-import { Canvas } from "@react-three/fiber";
+import { Canvas, useThree } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
+  // const { scene, gl } = useThree();
   const computer = useGLTF("./desktop_pc/scene.gltf");
+
+  // useEffect(() => {
+  //   scene.traverse((child) => {
+  //     if (child.isMesh) {
+  //       const position = child.geometry.attributes.position;
+  //       if (position) {
+  //         for (let i = 0; i < position.count; i++) {
+  //           const x = position.getX(i);
+  //           const y = position.getY(i);
+  //           const z = position.getZ(i);
+  //           if (isNaN(x) || isNaN(y) || isNaN(z)) {
+  //             console.error("NaN values found in position attribute", { x, y, z });
+  //             return; 
+  //           }
+  //         }
+  //       }
+  //     }
+  //   });
+  // }, [scene]);
 
   return (
     <mesh>
